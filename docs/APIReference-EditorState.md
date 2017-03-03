@@ -9,7 +9,7 @@ permalink: docs/api-reference-editor-state.html
 
 `EditorState` is the top-level state object for the editor.
 
-It is an Immutable [Record](http://facebook.github.io/immutable-js/docs/#/Record/Record)
+It is backed by an Immutable [Record](http://facebook.github.io/immutable-js/docs/#/Record/Record)
 that represents the entire state of a Draft editor, including:
 
   - The current text content state
